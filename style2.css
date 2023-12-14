@@ -1,0 +1,279 @@
+*{
+    background-color: #333;
+     color: azure; 
+     margin: none;
+    } 
+    
+    
+    
+    body{
+    
+        margin: 0px;
+    }
+    .Prateek{
+      
+        margin-top: 30px;
+         vertical-align:middle ;
+         margin-left: 600px;
+         padding: 10px;
+         border-radius: 5px;
+         background-attachment: fixed;
+         background-position: center;
+         
+    }
+    
+    .Prateek-1{
+      
+      margin-top: 10px;
+       vertical-align:middle ;
+       margin-left: 300px;
+       padding: 10px;
+       border-radius: 5px;
+       background-attachment: fixed;
+       background-position: center;
+       
+    }
+     
+    .card-group{
+        display:flex;
+        text-align: justify;
+        flex-direction:unset;
+        padding: 50px;
+        margin-bottom: 30px; 
+       
+       
+    }
+    
+    .card{
+      padding: 70px;
+    
+      margin: 3px;
+      
+      
+    }
+    
+    @-webkit-keyframes tracking-in-expand {
+      0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+      }
+      40% {
+        opacity: 0.6;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes tracking-in-expand {
+      0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+      }
+      40% {
+        opacity: 0.6;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    .btn {
+     text-decoration: none;
+      background-color:#808080;
+      color: aliceblue;
+      padding: 10px;
+      border-radius: 5px;
+      align-items: center;
+    }
+    
+    
+    
+    
+    
+    
+    h1 {
+      margin: none;
+        font-family: Balthazar;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: .25em;
+        text-transform: none;
+        line-height: 1.4em;
+        text-align: center;
+    }
+    
+    nav {
+       display:grid;
+        margin:none;
+        position:sticky;
+        background-color:#333;
+        padding: 10px;
+        text-align: right;
+        padding: 20px;
+     
+    }    
+    
+    nav a{ 
+      
+      background-color:#333;
+       
+        margin: none;
+        text-decoration: none;
+       
+         font-size: large;
+         text-shadow: 12px; 
+        padding: 20px;
+        font-family: arno-pro-subhead;
+        font-weight: 400;
+        
+        color: aliceblue;
+        text-align: right;
+       
+        }
+        
+        .Social {
+         
+          align-items:center;
+         height: 80px;
+          cursor: pointer;
+          padding: 50px;
+    
+          
+      }
+      
+      .Social a{ 
+          margin: none;
+          
+      }
+    
+      .pic{
+        height: 80px;
+      cursor: grab;
+      margin-left: 60px ;
+      }
+    
+    nav :hover{
+        color: lightcoral;
+       
+    }
+    nav :visited{
+        color:lightcoral;
+        
+    }
+    
+    h2{ font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: 600;
+      letter-spacing: 0em;
+      text-transform: none;
+      font-family: Sorts Mill Goudy;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+      line-height: 1.2em;
+      font-size: 2rem;
+      text-align: center;
+     
+    }
+    
+    /*h3{ 
+        text-decoration: none;
+        font-family:  Balthazar;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: .02em;
+        text-transform: uppercase;
+        line-height: 1.2em;
+       
+    }
+    */
+    
+    .Read{
+        margin-top: 5%;
+        border-radius: 5px;
+        background-color:aliceblue; 
+        border: solid black;
+        color: lightcoral;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    .tracking-in-contract {
+       text-decoration: none;
+       font-size: 50px;
+       margin-left: 570px;
+       color: white;
+    
+        
+    
+        -webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s infinite both;
+                animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s infinite both;
+    }
+    
+    
+     @-webkit-keyframes tracking-in-contract {
+        0% {
+          letter-spacing: 1em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          letter-spacing: normal;
+          opacity: 1;
+        }
+      }
+      @keyframes tracking-in-contract {
+        0% {
+          letter-spacing: 1em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          letter-spacing: normal;
+          opacity: 1;
+        }
+      }
+      
+      .menu:hover{
+        background-color: azure;
+    
+      }
+    
+    
+    
+      .emailInput{
+        background-color: white;
+        color: #333;
+        margin: 20px;
+        margin-left: 400px;
+        margin-top: 10%;
+        height: 20px;
+        width: 300px;
+        padding: 20px;
+      }
+    
+      .button{
+        margin-left: 500px;
+        margin-bottom: 100%;
+        background-color: blanchedalmond;
+        border-radius: 30px;
+        width: 150px;
+        padding: 20px;
+        color: black;
+    
+      }
+      
+     .image{
+      margin: none;
+      display: block;
+      height: 800px;
+     }
+    
+    
