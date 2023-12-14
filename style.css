@@ -103,7 +103,7 @@ h1 {
 }
 
 nav {
-   display:grid;
+
     margin:none;
     position:sticky;
     background-color:#333;
